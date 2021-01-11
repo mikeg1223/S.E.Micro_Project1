@@ -46,3 +46,23 @@ body {
   height: 100%;
   background-attachment: fixed;
 }
+div.content{
+  border: 3px outset white;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgba(248,227,255,0.6);
+  align-content: center;
+  max-width: 1200px;
+  margin: 14px 16px;
+}
+div.picture {
+  float: left;
+  margin: 10px;
+}
+div.articleinfo {
+  
+}
+div.articlebody{
+
+}
