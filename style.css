@@ -1,0 +1,48 @@
+ul.a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #292045;
+  position: sticky;
+  top: 0;
+  border: 1px solid white;
+  border-style: ridge;
+  position: -webkit-sticky;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-right: 2px solid black;
+  width: 100px;
+
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.active {
+  background-color: #5E5AFF;
+}
+header.a {
+
+}
+body {
+  background-image: url("background5.jpg");
+  background-color: #000000;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}
